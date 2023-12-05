@@ -9,7 +9,7 @@ if __name__ == '__main__':
     parts_map = np.zeros((len(data[0]), len(data)))
     num_pattern = re.compile(r'\d+')
     symbol_pattern = re.compile(r'[^\.\d]')
-    
+
     for i, line in enumerate(data):
         for p in re.finditer(num_pattern, line):
             found = False

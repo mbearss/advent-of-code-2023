@@ -1,5 +1,3 @@
-import numpy as np
-
 if __name__ == '__main__':
     with open('input.txt') as f:
         data = tuple(l.strip() for l in f.readlines())
