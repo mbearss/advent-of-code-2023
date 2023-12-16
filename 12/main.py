@@ -26,5 +26,5 @@ if __name__ == '__main__':
     for i in range(len(counts)):
         p1 += solve(springs[i], counts[i])
         p2 += solve('?'.join([springs[i]] * 5), counts[i] * 5)
-    print('p1:', p1)
-    print('p2:', p2)
+    print('1:', p1)
+    print('2:', p2)

@@ -25,7 +25,7 @@ if __name__ == '__main__':
     height, width = len(data), len(data[0])
 
     p1 = tilt(transpose(data))
-    print('p1:', score(p1))
+    print('1:', score(p1))
 
     i = 0
     states = {}
@@ -40,5 +40,5 @@ if __name__ == '__main__':
         else:
             states[h] = i
 
-    print('p2:', score(transpose(data)))
+    print('2:', score(transpose(data)))
 
